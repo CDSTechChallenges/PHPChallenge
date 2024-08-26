@@ -24,7 +24,6 @@
                 <td>{{$todo->duedate}}</td>
                 <td>
                     <a href="{{route("todo.edit",$todo->id)}}" class="btn btn-success btn-sm">Update</a>
-                    <a href="{{route("todo.delete",$todo->id)}}" class="btn btn-danger btn-sm">Delete</a>
                 </td>
             </tr>
         @endforeach 
